@@ -17,5 +17,6 @@ int main() {
 
     auto res2 = make_unique<Negative>( make_unique<Const>(Fraction(2, 3)));
     cout << res2->evaluate() << endl;
+    cout<<Fraction(1, 2) * -1;
     return 0;
 };
